@@ -14,7 +14,7 @@ public class openurl {
 		 System.setProperty("webdriver.chrome.driver", exepath);
 		 
 		  WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().setScriptTimeout(50,TimeUnit.SECONDS);
+		driver.manage().timeouts().setScriptTimeout(10,TimeUnit.SECONDS);
 		  //launch chrome and direct it to the URL
 		  driver.get("http://www.testingtreasure.com");
 		  driver.findElement(By.xpath("//*[@id=\"header-inner\"]/div/h1/a")).click();
