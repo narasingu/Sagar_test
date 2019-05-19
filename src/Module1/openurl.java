@@ -2,6 +2,7 @@ package Module1;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -16,6 +17,7 @@ public class openurl {
 		driver.manage().timeouts().setScriptTimeout(50,TimeUnit.SECONDS);
 		  //launch chrome and direct it to the URL
 		  driver.get("http://www.testingtreasure.com");
+		  driver.findElement(By.xpath("//*[@id=\"header-inner\"]/div/h1/a")).click();
 		  
 		  //maximize window
 		  driver.manage().window().maximize();
