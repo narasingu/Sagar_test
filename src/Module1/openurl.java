@@ -18,7 +18,7 @@ public class openurl {
 		  //launch chrome and direct it to the URL
 		  driver.get("http://www.testingtreasure.com");
 		  driver.findElement(By.xpath("//*[@id=\"header-inner\"]/div/h1/a")).click();
-		  //test
+		  //testcases executes
 		  //maximize window
 		  driver.manage().window().maximize();
 		  
