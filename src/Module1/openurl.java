@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class openurl {
-
+//test 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String exepath = "F:\\chromedriver.exe";
@@ -18,7 +18,7 @@ public class openurl {
 		  //launch chrome and direct it to the URL
 		  driver.get("http://www.testingtreasure.com");
 		  driver.findElement(By.xpath("//*[@id=\"header-inner\"]/div/h1/a")).click();
-		  
+		  //test
 		  //maximize window
 		  driver.manage().window().maximize();
 		  
